@@ -3,7 +3,7 @@ import { HttpClient, HttpParams } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Job, Application } from './models';
 
-const API = 'http://localhost:5000/api';
+const API = 'https://hirehub-xbmg.onrender.com/api';
 
 @Injectable({ providedIn: 'root' })
 export class JobService {
